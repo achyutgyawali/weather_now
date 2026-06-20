@@ -1,0 +1,21 @@
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem 1.2rem;
+  margin: 1rem 0;
+  text-align: left;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.details-grid div {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+@media (max-width: 500px) {
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+}

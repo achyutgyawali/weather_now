@@ -1,0 +1,27 @@
+.weather-card {
+  color: #34495e;
+}
+
+.weather-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.weather-card h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.weather-card h2 {
+  font-size: 3rem;
+  margin: 0.2rem 0 0.6rem;
+  color: #e67e22;
+}
+
+.feels-like {
+  font-style: italic;
+  margin-bottom: 0.8rem;
+  color: #7f8c8d;
+}
